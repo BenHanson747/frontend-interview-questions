@@ -14,6 +14,21 @@ const Home = () => {
             How to build an Accordion from scratch
           </Link>
         </li>
+        <li className="flex justify-center items-center mt-4">
+          <Link className="underline text-blue-500" href="/counter">
+            How to build a Counter from scratch
+          </Link>
+        </li>
+        <li className="flex justify-center items-center mt-4">
+          <Link className="underline text-blue-500" href="/todolist">
+            How to build a Todo List from scratch
+          </Link>
+        </li>
+        <li className="flex justify-center items-center mt-4">
+          <Link className="underline text-blue-500" href="/modal">
+            How to build a dialog component
+          </Link>
+        </li>
       </ul>
     </>
   );
