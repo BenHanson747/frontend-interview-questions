@@ -14,11 +14,13 @@ const codeString = `const findLargestNumberInArray = (array: number[]): number |
 `;
 
 const findLargestNumberInArray = (array: number[]): number | undefined => {
-  if (!array.length) {
+  const arrayLength = array.length;
+
+  if (!arrayLength) {
     return;
   }
 
-  return array.sort()[array.length - 1];
+  return array.sort()[arrayLength - 1];
 };
 
 const LargestNumberInArrayComponent = (): React.ReactElement => {

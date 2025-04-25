@@ -25,7 +25,19 @@ const Home = () => {
             Find the largest number in an array
           </Link>
         </li>
-        <li className="flex justify-center items-center mt-4"></li>
+        <li className="flex justify-center items-center mt-4">
+          <Link
+            className="text-blue-500 underline"
+            href={"./capitalise-first-letter"}
+          >
+            Capitalise the first letter of a string
+          </Link>
+        </li>{" "}
+        <li className="flex justify-center items-center mt-4">
+          <Link className="text-blue-500 underline" href={"./sum-all-numbers"}>
+            Sum all numbers
+          </Link>
+        </li>
       </ul>
     </>
   );
