@@ -32,10 +32,23 @@ const Home = () => {
           >
             Capitalise the first letter of a string
           </Link>
-        </li>{" "}
+        </li>
         <li className="flex justify-center items-center mt-4">
           <Link className="text-blue-500 underline" href={"./sum-all-numbers"}>
             Sum all numbers
+          </Link>
+        </li>
+        <li className="flex justify-center items-center mt-4">
+          <Link
+            className="text-blue-500 underline"
+            href={"./group-words-by-first-letter"}
+          >
+            Group words by first letter
+          </Link>
+        </li>
+        <li className="flex justify-center items-center mt-4">
+          <Link className="text-blue-500 underline" href={"./fragile-bridge"}>
+            Fragile Bridge
           </Link>
         </li>
       </ul>
